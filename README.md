@@ -231,6 +231,14 @@ public class ExampleController {
 		return bankAccountNumber;
 	}
 ```
+### JSR-303 demo bean
+```java
+public class Result<T> {
+
+	private String status;
+	private String message;
+	private T result;
+```
 ## 5. CustomerService.java
 
 ```java
